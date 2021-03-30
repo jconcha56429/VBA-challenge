@@ -64,14 +64,14 @@ For Each ws In Worksheets
     ' formatting to percentage
     Cells(inputrow, 10).NumberFormat = "0.00%"
     
-    
+    Range("H1") = "Ticker"
+    Range("I1") = "Yearly Change"
+    Range("J1") = "Percent Change"
+    Range("K1") = "Total Volume"
     Next inputrow
 Next ws
    
 
-Range("H1") = "Ticker"
-Range("I1") = "Yearly Change"
-Range("J1") = "Percent Change"
-Range("K1") = "Total Volume"
+
 End Sub
 
